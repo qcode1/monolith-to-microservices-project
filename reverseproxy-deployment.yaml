@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: reverseproxy
-        image: niiquartey995/reverseproxy:v2
+        image: niiquartey995/reverseproxy:v1
         ports:
           - containerPort: 8080
         envFrom:
